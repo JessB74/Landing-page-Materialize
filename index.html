@@ -1,0 +1,200 @@
+<!--  Create a simple landing page with a navigation bar, a table, and 2 buttons using Materialize. Then re-size your browser and watch how your website adapts to its new size.
+  The Grid System,
+Text alignment
+Text-colors
+Tables,
+ Buttons.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!-- Compiled and minified CSS -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+       
+        <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Landing Page</title>
+    
+    <style>
+
+a.brand-logo{
+    padding-left: 10px;
+}
+div.section{
+margin: 40px;
+
+}
+
+
+    </style>
+
+
+</head>
+<body>
+
+     <!-- <div class="container"> -->
+        <!-- NAVBAR -->
+<nav class="nav-wrapper teal darken-3 text-lighten-5 " >
+
+    
+    <a href="#" class="brand-logo ">EcoTech Solutions</a> 
+
+ <a href="#" class="sidenav-trigger right " data-target="mobile-links">
+   <i class="material-icons">menu</i>
+ </a>
+
+<ul class="right hide-on-med-and-down">
+<li><a href="#">Home</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+
+</nav>
+    
+ <ul class="sidenav" id="mobile-links">
+
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+
+</ul> 
+<!-- </div> -->
+
+<!-- HERO SECTION  -->
+
+ <section class="center-align">
+    <h2>Powering a Greener Tomorrow!</h2>
+    <p>At EcoTech Solutions, we are committed to revolutionizing the way we harness and utilize energy. Our cutting-edge, eco-friendly technologies help individuals and businesses reduce their carbon footprint, lower energy costs, and contribute to a more sustainable planet. Whether it's solar panel installations, smart energy management, or eco-friendly packaging, we provide innovative solutions designed for a greener future.</p>
+    <a class="btn teal darken-3">Learn More</a>
+    <a class="btn green darken-3">Get Started</a>
+</section> 
+
+<!-- TABLE -->
+ <div class="section ">
+<table class="responsive-table striped ">
+    <thead>
+      <tr>
+     
+          <th>Service</th>
+          <th>Description</th>
+          <th>Price</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+       
+        <th>Solar Panel Installation</th>
+        <td>High-efficiency solar panels for homes & businesses.</td>
+        <td>Starting at $2,500</td>
+      </tr>
+      <tr>
+        
+        <th>Smart Energy Management</th>
+        <td>AI-powered system to optimize energy usage & savings.</td>
+        <td>$499 setup + $20/month</td>
+      </tr>
+      <tr>
+   
+        <th>Eco-friendly Packaging</th>
+        <td>Sustainable, biodegradable packaging solutions.</td>
+        <td>$0.50 per unit</td>
+      </tr>
+
+      <tr>
+       
+        <th>Rainwater Harvesting System</th>
+        <td>Collect and store rainwater for household & irrigation use.</td>
+        <td>Starting at $600</td>
+      </tr>
+      <tr>
+        
+        <th>EV Charging Stations</th>
+        <td>Install home or commercial electric vehicle chargers.</td>
+        <td>Starting at $800</td>
+      </tr>
+     
+    </tbody>
+  </table>
+
+</div> 
+<!-- END OF TABLE -->
+
+<!-- Call to Action -->
+ <div class="section center-align">
+    <a class="btn-large teal darken-3">Get a Quote</a>
+    <a class="btn-large green darken-3">Contact Us</a>
+ </div>
+
+<footer class="page-footer teal darken-3">
+    <div class="container">
+        <!-- Row 1: Logo and Company Info -->
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">EcoTech Solutions</h5>
+                <p class="grey-text text-lighten-4">Innovating sustainable solutions for a greener future.</p>
+            </div>
+
+            <!-- Row 2: Links -->
+            <div class="col l3 s12">
+                <h5 class="white-text">Quick Links</h5>
+                <ul>
+                    <li><a href="#" class="grey-text text-lighten-3">Home</a></li>
+                    <li><a href="#" class="grey-text text-lighten-3">About Us</a></li>
+                    <li><a href="#" class="grey-text text-lighten-3">Services</a></li>
+                    <li><a href="#" class="grey-text text-lighten-3">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Row 3: Contact Info -->
+            <div class="col l3 s12">
+                <h5 class="white-text">Contact Info</h5>
+                <ul>
+                    <li><a href="mailto:info@ecotech.com" class="grey-text text-lighten-3">info@ecotech.com</a></li>
+                    <li><a href="tel:+1234567890" class="grey-text text-lighten-3">+123 456 7890</a></li>
+                    <li><p class="grey-text text-lighten-3">123 Green St., City, Country</p></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Row 4: Social Media Links -->
+        <div class="row">
+            <div class="col s12">
+                <a href="#" class="social-link grey-text text-lighten-3"><i class="material-icons">facebook</i></a>
+                <a href="#" class="social-link grey-text text-lighten-3"><i class="material-icons">twitter</i></a>
+                <a href="#" class="social-link grey-text text-lighten-3"><i class="material-icons">linkedin</i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-copyright">
+        <div class="container">
+            © 2025 EcoTech Solutions. All rights reserved.
+        </div>
+    </div>
+</footer>
+
+ 
+<!-- <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Get a quote</a>
+<a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>NEWSLETTER</a> -->
+
+<!-- </div> -->
+
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> 
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+$(document).ready(function(){
+$('.sidenav').sidenav()
+
+})
+
+</script>
+</body>
+</html>
